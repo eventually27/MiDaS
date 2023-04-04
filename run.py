@@ -209,13 +209,13 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     parser.add_argument('-i', '--input_path',
-                        default=None,
+                        default='input',
                         help='Folder with input images (if no input path is specified, images are tried to be grabbed '
                              'from camera)'
                         )
 
     parser.add_argument('-o', '--output_path',
-                        default=None,
+                        default='output',
                         help='Folder for output images'
                         )
 
@@ -225,7 +225,7 @@ if __name__ == "__main__":
                         )
 
     parser.add_argument('-t', '--model_type',
-                        default='dpt_beit_large_512',
+                        default='dpt_large_384',
                         help='Model type: '
                              'dpt_beit_large_512, dpt_beit_large_384, dpt_beit_base_384, dpt_swin2_large_384, '
                              'dpt_swin2_base_384, dpt_swin2_tiny_256, dpt_swin_large_384, dpt_next_vit_large_384, '
