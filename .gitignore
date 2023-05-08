@@ -108,3 +108,7 @@ venv.bak/
 *.jpg
 *.jpeg
 *.pt
+etc/BTS_Dynamite2020.mp4
+*.mp4
+input/rgb-chihiro.zip
+output/depth-chihiro-dpt_beit_large_512.zip
