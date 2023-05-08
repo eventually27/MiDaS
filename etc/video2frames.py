@@ -1,7 +1,7 @@
 import cv2
 
 # Open the video file
-cap = cv2.VideoCapture('BTS_Dynamite2020.mp4')
+cap = cv2.VideoCapture('chihiro.mp4')
 
 # Check if the video file was opened successfully
 if not cap.isOpened():
